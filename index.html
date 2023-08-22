@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <title>Todo app</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="body-l">
+  <div class="bg bg-l"></div>
+
+  <main>
+    <header>
+      <div class="title">Todo</div>
+      <img src="./images/icon-moon.svg" alt="" class="moon ">
+      <img src="./images/icon-sun.svg" alt="" class="sun hidden">
+    </header>
+
+  <!-- Add dynamic number --> 
+  <section class="write write-l">
+    <input class="input-txt input-txt-l">
+  </section>
+<section class="main-box main-box-l">
+  <section class="addition">
+    <!-- <div class="box box-l">
+      <div class="img-holder">
+        <img src="./images/icon-check.svg" alt="" class="check-img hidden">
+      </div>
+      <div class="save-txt">Create a new todo...</div>
+      <img src="./images/icon-cross.svg" alt="" class="cross hidden">
+    </div> -->
+  </section>
+  <footer class="footer-l">
+    <div class="items-left"> <span class="box-count">0</span> items left</div>
+    <div class="what-to-show what-to-show-l">
+      <div class="all pointer pointer-l">All</div>
+      <div class="active pointer pointer-l">Active</div>
+      <div class="completed pointer pointer-l">Completed</div>
+    </div>
+    <div class="clear-completed pointer pointer-l">Clear Completed</div>
+  </footer>
+</section>
+  <div class="saving-desc saving-desc-l">
+  Press enter to reorder list
+  </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
